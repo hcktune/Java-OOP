@@ -11,12 +11,12 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         customer.setAccountId(UUID.randomUUID());
         System.out.println("Enter the following informations to create your account :");
-        new desing();
+
         // read customer infos
         customer.setBalance();
         customer.setCurrency();
         customer.setStatus();
-        new desing();
+
         // print infos
         customer.printAccount();
 
